@@ -1,0 +1,105 @@
+.image {
+    width: 100%;
+    height: 1000px;
+    animation: color-shift 5s linear infinite;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+@keyframes color-shift {
+    0% { background-color: rgb(0, 200, 255); }
+    50% { background-color: rgb(16, 255, 16); }
+    75% { background-color: rgb(164, 0, 0); }
+    100% { background-color: rgb(0, 200, 255)}
+}
+.white {
+    width: 800px;
+    height: 900px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.sign-in {
+    width: 300px;
+    height: 200px;
+    font-size: 45px;
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+}
+.FullName {
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 14%;
+    left: 30%;
+}
+.input {
+    width: 350px;
+    height: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.email {
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.input1 {
+    width: 350px;
+    height: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 21%;
+    left: 40%;
+}
+.password {
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.input2 {
+    width: 350px;
+    height: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+.check {
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 30%
+}
+.input3 {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    top: 31%
+}
